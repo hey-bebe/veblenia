@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>My New Hugo Project</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Project</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Veblenia</title><link>https://hey-bebe.github.io/veblenia/</link><description>Recent content on Veblenia</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hey-bebe.github.io/veblenia/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://hey-bebe.github.io/veblenia/about/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://hey-bebe.github.io/veblenia/about/</guid><description>&lt;h1 id="about-veblenia"&gt;About Veblenia&lt;/h1&gt;
+&lt;p&gt;Veblenia is a notebook for short writing on institutions, norms, and the structures that shape ordinary life.&lt;/p&gt;</description></item><item><title>Archive</title><link>https://hey-bebe.github.io/veblenia/archive/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://hey-bebe.github.io/veblenia/archive/</guid><description>&lt;h1 id="archive"&gt;Archive&lt;/h1&gt;</description></item><item><title>Contact</title><link>https://hey-bebe.github.io/veblenia/contact/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://hey-bebe.github.io/veblenia/contact/</guid><description>&lt;h1 id="contact"&gt;Contact&lt;/h1&gt;
+&lt;p&gt;For now, use the repository profile or site-linked channels for correspondence.&lt;/p&gt;</description></item><item><title>Welcome to Veblenia</title><link>https://hey-bebe.github.io/veblenia/posts/2026-04-01-welcome/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://hey-bebe.github.io/veblenia/posts/2026-04-01-welcome/</guid><description>&lt;p&gt;The site is now configured as a running notebook for short posts on institutions and related fragments.&lt;/p&gt;</description></item></channel></rss>
