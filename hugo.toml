@@ -1,7 +1,42 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
-theme = 'archie'
+baseURL = "https://hey-bebe.github.io/veblenia/"
+languageCode = "en-us"
+title = "Veblenia"
+theme = "archie"
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+subtitle = "Notes and Fragments on Institutions"
+description = "Notes and Fragments on Institutions"
+mainSections = ["posts"]
+mode = "auto"
+useCDN = false
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[menu.main]]
+name = "Archive"
+url = "/archive/"
+weight = 4
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 5
 
 [caches]
   [caches.images]

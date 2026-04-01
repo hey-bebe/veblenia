@@ -1,0 +1,10 @@
+.codex/
+.codex
+codex/
+superpowers/
+docs/
+.emacs
+.emacs.d/
+*~
+.DS_Store
+.hugo_build.lock
