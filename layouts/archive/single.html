@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main class="list">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{ $pages = where $pages "Params.hidden" "ne" true }}
+  {{ $pages = sort $pages "Date" "asc" }}
+  <ul class="posts">
+    {{ range $pages }}
+    <li class="post">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="meta">{{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</main>
+{{ end }}
