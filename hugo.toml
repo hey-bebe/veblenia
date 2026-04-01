@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Veblenia"
 theme = "archie"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [taxonomies]
   tag = "tags"
 

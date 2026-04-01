@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Housekeeping on Veblenia</title><link>https://hey-bebe.github.io/veblenia/tags/housekeeping/</link><description>Recent content in Housekeeping on Veblenia</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hey-bebe.github.io/veblenia/tags/housekeeping/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to Veblenia</title><link>https://hey-bebe.github.io/veblenia/posts/2026-04-01-welcome/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://hey-bebe.github.io/veblenia/posts/2026-04-01-welcome/</guid><description>&lt;p&gt;The site is now configured as a running notebook for short posts on institutions and related fragments.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Housekeeping on Veblenia</title>
+    <link>http://localhost:1313/tags/housekeeping/</link>
+    <description>Recent content in Housekeeping on Veblenia</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/housekeeping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to Veblenia</title>
+      <link>http://localhost:1313/posts/2026-04-01-welcome/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-04-01-welcome/</guid>
+      <description>&lt;p&gt;The site is now configured as a running notebook for short posts on institutions and related fragments.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

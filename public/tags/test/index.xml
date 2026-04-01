@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Veblenia</title>
+    <link>http://localhost:1313/tags/test/</link>
+    <description>Recent content in Test on Veblenia</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2026 14:33:00 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first ox-hugo post</title>
+      <link>http://localhost:1313/posts/my-first-ox-hugo-post/</link>
+      <pubDate>Wed, 01 Apr 2026 14:33:00 -0600</pubDate>
+      <guid>http://localhost:1313/posts/my-first-ox-hugo-post/</guid>
+      <description>&lt;p&gt;This is my post body&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

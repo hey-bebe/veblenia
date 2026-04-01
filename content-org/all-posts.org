@@ -1,0 +1,12 @@
+
+
+
+#+hugo_base_dir: ../
+
+* DONE My first ox-hugo post                                             :test:
+CLOSED: [2026-04-01 Wed 14:33]
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-first-ox-hugo-post
+:END:
+
+This is my post body
