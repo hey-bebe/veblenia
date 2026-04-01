@@ -12,7 +12,6 @@ CLOSED: [2026-04-01 Wed 15:00]
 :EXPORT_FILE_NAME: 2026-04-01-another-test
 :END:
 
-- State "DONE"       from              [2026-04-01 Wed 15:00]
 This is another test. You see, I like to test absolutely everything
 before I regularly use something, whether that's a program, powertool,
 or an emacs package.

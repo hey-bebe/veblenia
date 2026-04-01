@@ -41,6 +41,11 @@ name = "About"
 url = "/about/"
 weight = 5
 
+[[menu.main]]
+  name = "RSS"
+  url = "https://veblenia.net/index.xml"
+  weight = 6
+  
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
