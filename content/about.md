@@ -6,4 +6,5 @@ draft = false
 
 # About Veblenia
 
-Veblenia is a notebook for short writing on institutions, norms, and the structures that shape ordinary life.
+Veblenia is a notebook for short writing on institutions, norms, and
+the structures that shape ordinary life.
