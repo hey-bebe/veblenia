@@ -128,6 +128,8 @@ Keep the existing GitHub Pages workflow. The repo should remain buildable with H
 
 This design does not change the deployment architecture. It only ensures the source configuration and templates produce correct output.
 
+The implementation must keep the workflow files under [`.github/workflows/`](/home/cody/Projects/veblenia/.github/workflows) present because the site is already deployed through GitHub Pages.
+
 ## Repository Hygiene
 
 Add or update [`.gitignore`](/home/cody/Projects/veblenia/.gitignore) so local tooling and miscellaneous files are not tracked accidentally.
@@ -153,6 +155,7 @@ Verification should confirm:
 - Taxonomy headings are correct for both tags and any future taxonomy pages
 - Generated HTML uses a valid `lang` attribute placement
 - Requested local and miscellaneous files are ignored by git
+- Existing GitHub Pages workflow files remain in place
 
 ## Risks and Constraints
 
@@ -168,4 +171,5 @@ Implement the site by:
 2. Creating the initial source content structure
 3. Adding minimal local template overrides for homepage, archive, taxonomy labels, and valid HTML metadata
 4. Updating `.gitignore` to exclude the requested local and miscellaneous files
-5. Running a Hugo build to verify the configured site renders correctly
+5. Preserving the existing GitHub Pages workflow files
+6. Running a Hugo build to verify the configured site renders correctly
