@@ -6,4 +6,18 @@ draft = false
 
 # Contact
 
-For now, use the repository profile or site-linked channels for correspondence.
+cody -at- veblenia -dot- net
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----  
+
+mDMEac2KQBYJKwYBBAHaRw8BAQdAEw5sQXTKlQh9iW6x3E1RbLYJOMwgnjCT+7c6  
+BhX2Xiy0HUNvZHkgKEhpKSA8Y29keUB2ZWJsZW5pYS5uZXQ+iJAEExYKADgWIQSF  
+MXTTSeXtlhdcAT3TI4xm1lI+2gUCac2KQAIbAwULCQgHAgYVCgkICwIEFgIDAQIe  
+AQIXgAAKCRDTI4xm1lI+2gQiAP0RCQjSQLFpYb/EQdO3bDU0RZ0dooBUIx/9zbPN  
+Dy4xwgD/W+Lb4bAg3V7EBZ9pdNl2mH3+IhdS14TzV8Im0RCxHAe4OARpzYpAEgor  
+BgEEAZdVAQUBAQdAyjiKPHRYShTq8R8+xQ5AOqpfqyWQC0eZnMGaCXViJjcDAQgH  
+iHgEGBYKACAWIQSFMXTTSeXtlhdcAT3TI4xm1lI+2gUCac2KQAIbDAAKCRDTI4xm  
+1lI+2knWAPwKNs3mPTK+iWd1hk7Mf+ZyVqRyrtEIhKP4lZ2tcf1igQD/dbTLyuy4  
+t7AMu0f9MC5nTJC0VUH51853hPcTUrTiKQY=  
+=C5Vr  
+-----END PGP PUBLIC KEY BLOCK-----  
