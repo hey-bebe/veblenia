@@ -13,6 +13,7 @@ This design covers:
 - Source content structure for posts and static pages
 - Tags and archive browsing
 - Minimal template overrides needed to fix incorrect theme behavior
+- Repository hygiene for local and miscellaneous files via `.gitignore`
 
 This design does not include:
 
@@ -127,6 +128,20 @@ Keep the existing GitHub Pages workflow. The repo should remain buildable with H
 
 This design does not change the deployment architecture. It only ensures the source configuration and templates produce correct output.
 
+## Repository Hygiene
+
+Add or update [`.gitignore`](/home/cody/Projects/veblenia/.gitignore) so local tooling and miscellaneous files are not tracked accidentally.
+
+The ignore rules should include the categories the user explicitly requested, including:
+
+- `superpowers`
+- `docs`
+- `.emacs`
+- `codex`
+- other similar local or miscellaneous helper files that should not be committed
+
+The implementation should preserve normal source files required to build and deploy the site while excluding clearly local, editor-specific, or workflow-specific artifacts.
+
 ## Testing and Verification
 
 Verification should confirm:
@@ -137,6 +152,7 @@ Verification should confirm:
 - About, Contact, Tags, and Archive pages render successfully
 - Taxonomy headings are correct for both tags and any future taxonomy pages
 - Generated HTML uses a valid `lang` attribute placement
+- Requested local and miscellaneous files are ignored by git
 
 ## Risks and Constraints
 
@@ -151,4 +167,5 @@ Implement the site by:
 1. Replacing placeholder Hugo configuration with real site metadata and menus
 2. Creating the initial source content structure
 3. Adding minimal local template overrides for homepage, archive, taxonomy labels, and valid HTML metadata
-4. Running a Hugo build to verify the configured site renders correctly
+4. Updating `.gitignore` to exclude the requested local and miscellaneous files
+5. Running a Hugo build to verify the configured site renders correctly
