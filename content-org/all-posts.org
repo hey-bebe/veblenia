@@ -1,17 +1,5 @@
 #+TITLE: Hugo Blog Posts
 #+AUTHOR: Cody Edwards
 #+STARTUP: overview
+#+HUGO_BASE_DIR: ../
 
-
-
-#+hugo_base_dir: ../
-
-* DONE Another test                                                  :test:
-CLOSED: [2026-04-01 Wed 15:00]
-:PROPERTIES:
-:EXPORT_FILE_NAME: 2026-04-01-another-test
-:END:
-
-This is another test. You see, I like to test absolutely everything
-before I regularly use something, whether that's a program, powertool,
-or an emacs package.
