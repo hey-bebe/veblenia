@@ -8,11 +8,11 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo Blog Posts</title>
-      <link>http://localhost:1313/posts/all-posts/</link>
+      <title>Proem</title>
+      <link>http://localhost:1313/posts/2026-04-02-proem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/all-posts/</guid>
-      <description>&lt;h2 id=&#34;proem&#34;&gt;Proem&lt;/h2&gt;&#xA;&lt;p&gt;:PROPERTIES&#xA;:EXPORT_FILE_NAME: 2026-04-02-proem&#xA;:END&lt;/p&gt;&#xA;&lt;p&gt;I will be honest here: I set up this blog because I was curious&#xA;about how to set up a static blog using GitHub as a host. This came to&#xA;fruition out of some technical desire. Beyond that, there is no plan&#xA;going forward.&lt;/p&gt;&#xA;&lt;p&gt;The name &lt;em&gt;Veblenia&lt;/em&gt; is derived from Veblenian, i.e. someone who adheres,&#xA;in whole or in part, to the institutional economics of Thorstein&#xA;Veblen. It has been claimed by some I made a typo when registering the&#xA;domain. That is false. That is slander.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/2026-04-02-proem/</guid>
+      <description>&lt;p&gt;I will be honest here: I set up this blog because I was curious&#xA;about how to set up a static blog using GitHub as a host. This came to&#xA;fruition out of some technical desire. Beyond that, there is no plan&#xA;going forward.&lt;/p&gt;&#xA;&lt;p&gt;The name &lt;em&gt;Veblenia&lt;/em&gt; is derived from Veblenian, i.e. someone who&#xA;adheres, in whole or in part, to the institutional economics of&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/Thorstein_Veblen&#34;&gt;Thorsten Veblen&lt;/a&gt;. He&#xA;was a fascinating character, and it would be well worth your time read&#xA;up on him.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

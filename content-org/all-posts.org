@@ -1,7 +1,8 @@
 #+hugo_base_dir: ../
 
 
-* Proem
+* DONE Proem
+CLOSED: [2026-04-02 Thu 18:09]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-04-02-proem
 :END:
