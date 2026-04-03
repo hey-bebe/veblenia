@@ -6,21 +6,13 @@
     <description>Recent content in Posts on Veblenia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2026 14:33:00 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My first ox-hugo post                                             :test</title>
-      <link>http://localhost:1313/posts/my-first-ox-hugo-post/</link>
-      <pubDate>Wed, 01 Apr 2026 14:33:00 -0600</pubDate>
-      <guid>http://localhost:1313/posts/my-first-ox-hugo-post/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;State &amp;ldquo;DONE&amp;rdquo;       from              &lt;span class=&#34;timestamp-wrapper&#34;&gt;&lt;span class=&#34;timestamp&#34;&gt;[2026-04-01 Wed 14:33]&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This is my post body&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Welcome to Veblenia</title>
-      <link>http://localhost:1313/posts/2026-04-01-welcome/</link>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2026-04-01-welcome/</guid>
-      <description>&lt;p&gt;The site is now configured as a running notebook for short posts on institutions and related fragments.&lt;/p&gt;</description>
+      <title>Hugo Blog Posts</title>
+      <link>http://localhost:1313/posts/all-posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/all-posts/</guid>
+      <description>&lt;h2 id=&#34;proem&#34;&gt;Proem&lt;/h2&gt;&#xA;&lt;p&gt;:PROPERTIES&#xA;:EXPORT_FILE_NAME: 2026-04-02-proem&#xA;:END&lt;/p&gt;&#xA;&lt;p&gt;I will be honest here: I set up this blog because I was curious&#xA;about how to set up a static blog using GitHub as a host. This came to&#xA;fruition out of some technical desire. Beyond that, there is no plan&#xA;going forward.&lt;/p&gt;&#xA;&lt;p&gt;The name &lt;em&gt;Veblenia&lt;/em&gt; is derived from Veblenian, i.e. someone who adheres,&#xA;in whole or in part, to the institutional economics of Thorstein&#xA;Veblen. It has been claimed by some I made a typo when registering the&#xA;domain. That is false. That is slander.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

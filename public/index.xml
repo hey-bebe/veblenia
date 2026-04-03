@@ -6,21 +6,14 @@
     <description>Recent content on Veblenia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2026 14:33:00 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My first ox-hugo post</title>
-      <link>http://localhost:1313/posts/my-first-ox-hugo-post/</link>
-      <pubDate>Wed, 01 Apr 2026 14:33:00 -0600</pubDate>
-      <guid>http://localhost:1313/posts/my-first-ox-hugo-post/</guid>
-      <description>&lt;p&gt;This is my post body&lt;/p&gt;</description>
-    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;about-veblenia&#34;&gt;About Veblenia&lt;/h1&gt;&#xA;&lt;p&gt;Veblenia is a notebook for short writing on institutions, norms, and the structures that shape ordinary life.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;about-veblenia&#34;&gt;About Veblenia&lt;/h1&gt;&#xA;&lt;p&gt;Veblenia is a notebook for short writing on institutions, norms, and&#xA;the structures that shape ordinary life.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Archive</title>
@@ -34,14 +27,14 @@
       <link>http://localhost:1313/contact/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;&#xA;&lt;p&gt;For now, use the repository profile or site-linked channels for correspondence.&lt;/p&gt;</description>
+      <description>&lt;p&gt;cody -at- veblenia -dot- net&lt;/p&gt;&#xA;&lt;p&gt;&amp;mdash;&amp;ndash;BEGIN PGP PUBLIC KEY BLOCK&amp;mdash;&amp;ndash;&lt;/p&gt;&#xA;&lt;p&gt;mDMEac2KQBYJKwYBBAHaRw8BAQdAEw5sQXTKlQh9iW6x3E1RbLYJOMwgnjCT+7c6&lt;br&gt;&#xA;BhX2Xiy0HUNvZHkgKEhpKSA8Y29keUB2ZWJsZW5pYS5uZXQ+iJAEExYKADgWIQSF&lt;br&gt;&#xA;MXTTSeXtlhdcAT3TI4xm1lI+2gUCac2KQAIbAwULCQgHAgYVCgkICwIEFgIDAQIe&lt;br&gt;&#xA;AQIXgAAKCRDTI4xm1lI+2gQiAP0RCQjSQLFpYb/EQdO3bDU0RZ0dooBUIx/9zbPN&lt;br&gt;&#xA;Dy4xwgD/W+Lb4bAg3V7EBZ9pdNl2mH3+IhdS14TzV8Im0RCxHAe4OARpzYpAEgor&lt;br&gt;&#xA;BgEEAZdVAQUBAQdAyjiKPHRYShTq8R8+xQ5AOqpfqyWQC0eZnMGaCXViJjcDAQgH&lt;br&gt;&#xA;iHgEGBYKACAWIQSFMXTTSeXtlhdcAT3TI4xm1lI+2gUCac2KQAIbDAAKCRDTI4xm&lt;br&gt;&#xA;1lI+2knWAPwKNs3mPTK+iWd1hk7Mf+ZyVqRyrtEIhKP4lZ2tcf1igQD/dbTLyuy4&lt;br&gt;&#xA;t7AMu0f9MC5nTJC0VUH51853hPcTUrTiKQY=&lt;br&gt;&#xA;=C5Vr&lt;br&gt;&#xA;&amp;mdash;&amp;ndash;END PGP PUBLIC KEY BLOCK&amp;mdash;&amp;ndash;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Welcome to Veblenia</title>
-      <link>http://localhost:1313/posts/2026-04-01-welcome/</link>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2026-04-01-welcome/</guid>
-      <description>&lt;p&gt;The site is now configured as a running notebook for short posts on institutions and related fragments.&lt;/p&gt;</description>
+      <title>Proem</title>
+      <link>http://localhost:1313/posts/2026-04-02-proem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2026-04-02-proem/</guid>
+      <description>&lt;p&gt;I will be honest here: I set up this blog because I was curious&#xA;about how to set up a static blog using GitHub as a host. This came to&#xA;fruition out of some technical desire. Beyond that, there is no plan&#xA;going forward.&lt;/p&gt;&#xA;&lt;p&gt;The name &lt;em&gt;Veblenia&lt;/em&gt; is derived from Veblenian, i.e. someone who&#xA;adheres, in whole or in part, to the institutional economics of&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/Thorstein_Veblen&#34;&gt;Thorsten Veblen&lt;/a&gt;. He&#xA;was a fascinating character, and it would be well worth your time read&#xA;up on him.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
