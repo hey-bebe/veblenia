@@ -1,6 +1,9 @@
+#+title: Hugo Blog Posts
+#+author: Cody Edwards
 #+hugo_base_dir: ../
+#+starup: overview
 
-
+* 
 * DONE Proem
 CLOSED: [2026-04-02 Thu 18:09]
 :PROPERTIES:
@@ -13,11 +16,11 @@ fruition out of some technical desire. Beyond that, there is no plan
 going forward.
 
 The name /Veblenia/ is derived from Veblenian, i.e. someone who adheres,
-in whole or in part, to the institutional economics of [[https://en.wikipedia.org/wiki/Thorstein_Veblen][Thorsten
+in whole or in part, to the institutional economics of [[https://en.wikipedia.org/wiki/Thorstein_Veblen][Thorstein
 Veblen]]. He was a fascinating character, and it would be well worth
 your time read up on him.
 
-It has been claimed by some I made a typo when registering the
+It has been claimed by some that I made a typo when registering the
 domain. That is false. That is slander. And I deny it.
 
 Regardless, I am excited about what I can do with this space. Maybe a
