@@ -14,21 +14,23 @@ collectors or repo men. It was easier to do that back then.
 I was outside playing with the neighborhood kids. We ran around and
 raised hell. At some point we rested at one of those big, wooden
 picnic tables at the center of the courtyard. We talked for a while
-and began busting each other's balls. At some point, one of the kids
-took it a little too far and began insulting the others in a cruel
-way. He turn his attention toward me, called me names, made fun of my
-family. He jumped on top of the table and put his feet in my face. I
-couldn't take the abuse anymore, so I grabbed his ankles and yanked as
-hard as I could. I guess I hurt him badly because he started crying,
-tears ran down his face; his cheeks turned bright red. The door to a
-nearby trailer swung open, and a big, balding man came storming over
-to us. It was the kid's dad. The dad grabbed his wailing son and
-yelled at me to go home.
+and began busting each other's balls. One of the kids took it a little
+too far and began insulting the others in a cruel way. He turned his
+attention toward me, called me names, made fun of my family. He jumped
+on top of the table and put his feet in my face. I couldn't take the
+abuse anymore, so I grabbed his ankles and yanked as hard as I
+could. I guess I hurt him badly because he started crying, tears ran
+down his face; his cheeks turned bright red. The door to a nearby
+trailer swung open, and a big, balding man came storming over to
+us. It was the kid's dad. The dad grabbed his wailing son and yelled
+at me to go home.
 
-I still don't know why that kid's dad didn't hit me. It was one of
-those places at one of those times, and I suppose others in that
-milieu wouldn't have thought much of it. Maybe he knew my dad and
-didn't want to start any trouble.
+I don't know why that kid's dad didn't hit me. It was one of those
+places at one of those times, and I suppose others in that milieu
+wouldn't have thought much of it. Maybe he knew my dad and didn't want
+to start any trouble. From my point of view, he got what he
+deserved. But I imagine the kid's dad didn't see it that way. He just
+saw some little rat harm his child.
 
-I never played with those kids again. Soon after, we moved back to
-Texas. I guess the coast was clear.
+Nothing came of it. I never played with those kids again. Soon after,
+we moved back to Texas. I guess the coast was clear.
