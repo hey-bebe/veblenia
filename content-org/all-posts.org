@@ -1,9 +1,30 @@
 #+title: Hugo Blog Posts
 #+author: Cody Edwards
 #+hugo_base_dir: ../
-#+starup: overview
+#+startup: overview
 
-* 
+* Fragments
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-04-03-
+:END:
+
+When I was 5 or 6, my family briefly lived in a trailer park in
+southern New Mexico. I don't remember why we were living
+there. Probably to run away from something or someone, usually bill
+collectors or repo men. It was easier to do that back then.
+
+I was playing outside with some of the neighbor kids. We ran around
+the court yard. We rested at one of those big, wooden picnic tables
+near the center. We talked and eventually busted each other's balls.
+But one of the kids decided to take it a little too far. He picked on
+me, called me names, made fun of my family. He jumped on top of the
+table and put his feet in my face. At some point, I couldn't take the
+abuse anymore, so I grabbed his ankles and yanked as hard as I
+could. His whole body smashed against the table. He started crying and
+the other kids backed away. His dad ran toward us, yelling at me.
+
+
+
 * DONE Proem
 CLOSED: [2026-04-02 Thu 18:09]
 :PROPERTIES:
