@@ -6,6 +6,14 @@
     <description>Recent content in Tags on Veblenia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 04 Apr 2026 16:17:00 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fragments</title>
+      <link>http://localhost:1313/tags/fragments/</link>
+      <pubDate>Sat, 04 Apr 2026 16:17:00 -0600</pubDate>
+      <guid>http://localhost:1313/tags/fragments/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Veblenia</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Veblenia</description>
+    <title>Fragments on Veblenia</title>
+    <link>http://localhost:1313/tags/fragments/</link>
+    <description>Recent content in Fragments on Veblenia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Apr 2026 16:17:00 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/fragments/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fragments: Trailer Trash</title>
       <link>http://localhost:1313/posts/2026-04-04-trailer-trash/</link>
       <pubDate>Sat, 04 Apr 2026 16:17:00 -0600</pubDate>
       <guid>http://localhost:1313/posts/2026-04-04-trailer-trash/</guid>
       <description>&lt;p&gt;When I was 5 or 6, my family briefly lived in a trailer park in&#xA;southern New Mexico. I don&amp;rsquo;t remember why we were living&#xA;there. Probably to run away from something or someone, usually bill&#xA;collectors or repo men. It was easier to do that back then.&lt;/p&gt;&#xA;&lt;p&gt;I was outside playing with the neighborhood kids. We ran around and&#xA;raised hell. At some point we rested at one of those big, wooden&#xA;picnic tables at the center of the courtyard. We talked for a while&#xA;and began busting each other&amp;rsquo;s balls. At some point, one of the kids&#xA;took it a little too far and began insulting the others in a cruel&#xA;way. He turn his attention toward me, called me names, made fun of my&#xA;family. He jumped on top of the table and put his feet in my face. I&#xA;couldn&amp;rsquo;t take the abuse anymore, so I grabbed his ankles and yanked as&#xA;hard as I could. I guess I hurt him badly because he started crying,&#xA;tears ran down his face; his cheeks turned bright red. The door to a&#xA;nearby trailer swung open, and a big, balding man came storming over&#xA;to us. It was the kid&amp;rsquo;s dad. The dad grabbed his wailing son and&#xA;yelled at me to go home.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Proem</title>
-      <link>http://localhost:1313/posts/2026-04-02-proem/</link>
-      <pubDate>Thu, 02 Apr 2026 18:09:00 -0600</pubDate>
-      <guid>http://localhost:1313/posts/2026-04-02-proem/</guid>
-      <description>&lt;p&gt;I will be honest here: I set up this blog because I was curious&#xA;about how to set up a static blog using GitHub as a host. This came to&#xA;fruition out of some technical desire. Beyond that, there is no plan&#xA;going forward.&lt;/p&gt;&#xA;&lt;p&gt;The name &lt;em&gt;Veblenia&lt;/em&gt; is derived from Veblenian, i.e. someone who adheres,&#xA;in whole or in part, to the institutional economics of &lt;a href=&#34;https://en.wikipedia.org/wiki/Thorstein_Veblen&#34;&gt;Thorstein&#xA;Veblen&lt;/a&gt;. He was a fascinating character, and it would be well worth&#xA;your time read up on him.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

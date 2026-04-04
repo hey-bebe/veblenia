@@ -1,13 +1,10 @@
-#+title: Hugo Blog Posts
-#+author: Cody Edwards
-#+hugo_base_dir: ../
-#+startup: overview
-
-* DONE Fragments: Trailer Park Drama                            :fragments:
-CLOSED: [2026-04-04 Sat 16:17]
-:PROPERTIES:
-:EXPORT_FILE_NAME: 2026-04-04-trailer-trash
-:END:
++++
+title = "Fragments: Trailer Park Drama"
+author = ["Cody Edwards"]
+date = 2026-04-04T16:17:00-06:00
+tags = ["fragments"]
+draft = false
++++
 
 When I was 5 or 6, my family briefly lived in a trailer park in
 southern New Mexico. I don't remember why we were living
@@ -35,27 +32,3 @@ didn't want to start any trouble.
 
 I never played with those kids again. Soon after, we moved back to
 Texas. I guess the coast was clear.
-
-
-* DONE Proem
-CLOSED: [2026-04-02 Thu 18:09]
-:PROPERTIES:
-:EXPORT_FILE_NAME: 2026-04-02-proem
-:END:
-
-I will be honest here: I set up this blog because I was curious
-about how to set up a static blog using GitHub as a host. This came to
-fruition out of some technical desire. Beyond that, there is no plan
-going forward.
-
-The name /Veblenia/ is derived from Veblenian, i.e. someone who adheres,
-in whole or in part, to the institutional economics of [[https://en.wikipedia.org/wiki/Thorstein_Veblen][Thorstein
-Veblen]]. He was a fascinating character, and it would be well worth
-your time read up on him.
-
-It has been claimed by some that I made a typo when registering the
-domain. That is false. That is slander. And I deny it.
-
-Regardless, I am excited about what I can do with this space. Maybe a
-story! Maybe a recipe! Maybe a detailed accounting of all the slights,
-real or imagined, that have been directed toward me. We shall see.
