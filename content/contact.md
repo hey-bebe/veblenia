@@ -4,10 +4,10 @@ date = 2026-04-01T00:00:00Z
 draft = false
 +++
 
-cody -at- veblenia -dot- net
 
-
-
+cody -at- veblenia -dot- net  
+<br>
+<br>
 -----BEGIN PGP PUBLIC KEY BLOCK-----  
 
 mDMEac2KQBYJKwYBBAHaRw8BAQdAEw5sQXTKlQh9iW6x3E1RbLYJOMwgnjCT+7c6  
