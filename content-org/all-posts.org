@@ -3,6 +3,22 @@
 #+hugo_base_dir: ../
 #+startup: overview
 
+* I don't know you. I don't know myself.
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-04-04-
+:END:
+
+On Nagle and the inaccessibility of other conscious states.
+
+* Attestation: A Car Crash
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-04-05-witness-car-crash
+:END:
+
+On my way home from running errands, I saw the aftermath of a car
+crash. A red crossover vehicle flipped upside down and nestled off the
+side of the road in a pecan orchard.
+
 * DONE Notelet: Christina Hendricks, DJ                     :notelet:music:
 CLOSED: [2026-04-05 Sun 00:58]
 :PROPERTIES:
@@ -14,14 +30,7 @@ the other night, which consisted of primarily shoegaze and dream pop,
 such as Slowdive and Japanese Breakfast and Cocteau Twins. She has
 great taste.
 
-* I don't know you. I don't know myself.
-:PROPERTIES:
-:EXPORT_FILE_NAME: 2026-04-04-
-:END:
-
-On Nagle and the inaccessibility of other conscious states.
-
-* DONE Fragments: At A Trailer Park                             :fragments:
+* DONE Fragment: At A Trailer Park                              :fragments:
 CLOSED: [2026-04-04 Sat 16:17]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-04-04-trailer-trash
@@ -83,3 +92,5 @@ domain. That is false. That is slander. And I deny it.
 Regardless, I am excited about what I can do with this space. Maybe a
 story! Maybe a recipe! Maybe a detailed accounting of all the slights,
 real or imagined, that have been directed toward me. We shall see.
+
+

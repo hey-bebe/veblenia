@@ -1,5 +1,5 @@
 +++
-title = "Fragments: At A Trailer Park"
+title = "Fragment: At A Trailer Park"
 author = ["Cody Edwards"]
 date = 2026-04-04T16:17:00-06:00
 tags = ["fragments"]
