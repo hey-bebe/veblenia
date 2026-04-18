@@ -3,21 +3,11 @@
 #+hugo_base_dir: ../
 #+startup: overview
 
-* I don't know you. I don't know myself.
-:PROPERTIES:
-:EXPORT_FILE_NAME: 2026-04-04-
-:END:
-
-On Nagle and the inaccessibility of other conscious states.
-
 * Attestation: A Car Crash
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-04-05-witness-car-crash
 :END:
 
-On my way home from running errands, I saw the aftermath of a car
-crash. A red crossover vehicle flipped upside down and nestled off the
-side of the road in a pecan orchard.
 
 * DONE Notelet: Christina Hendricks, DJ                     :notelet:music:
 CLOSED: [2026-04-05 Sun 00:58]
