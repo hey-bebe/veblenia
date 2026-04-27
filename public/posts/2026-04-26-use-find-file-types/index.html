@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Techlet: Find how much space certain file types take up - Veblenia</title><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="I am pretty sloppy with my file organization. Usually, I just store
+things where I think they would be useful at that point in time, not
+necessarily where they logically belong. Eventually, I get curious of
+how many of a particular file type I have and how much space they are
+taking up. Below is a convoluted shell command that searches the home
+directory for every file with a particular extension and displays how
+many of that type there are and how much space they&rsquo;re taking up." />
+  <meta property="og:image" content="http://localhost:1313/"/>
+  <meta property="og:url" content="http://localhost:1313/posts/2026-04-26-use-find-file-types/">
+  <meta property="og:site_name" content="Veblenia">
+  <meta property="og:title" content="Techlet: Find how much space certain file types take up">
+  <meta property="og:description" content="I am pretty sloppy with my file organization. Usually, I just store things where I think they would be useful at that point in time, not necessarily where they logically belong. Eventually, I get curious of how many of a particular file type I have and how much space they are taking up. Below is a convoluted shell command that searches the home directory for every file with a particular extension and displays how many of that type there are and how much space they’re taking up.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-04-26T21:39:00-06:00">
+    <meta property="article:modified_time" content="2026-04-26T21:39:00-06:00">
+    <meta property="article:tag" content="Techlet">
+    <meta property="article:tag" content="Linux">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Techlet: Find how much space certain file types take up">
+  <meta name="twitter:description" content="I am pretty sloppy with my file organization. Usually, I just store things where I think they would be useful at that point in time, not necessarily where they logically belong. Eventually, I get curious of how many of a particular file type I have and how much space they are taking up. Below is a convoluted shell command that searches the home directory for every file with a particular extension and displays how many of that type there are and how much space they’re taking up.">
+
+  <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+  
+
+  
+  <link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.92c7e6f6f5baede55d6238ba492bcbd00e10ca39a6bbdec527692bfc9564a927.css" />
+  <link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.4529c04ce20ceac5a42e37a63e092c89354fbd00e6209bd2995100d61b71e8df.css" media="(prefers-color-scheme: dark)"  />
+</head>
+<body>
+    <div class="content"><header>
+	<div class="main">
+		<a href="/">Veblenia</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/contact/">Contact</a>
+		
+		<a href="/tags/">Tags</a>
+		
+		<a href="/archive/">Archive</a>
+		
+		<a href="/about/">About</a>
+		
+		<a href="https://veblenia.net/index.xml">RSS</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">Techlet: Find how much space certain file types take up</h1>
+          <div class="meta">Posted on Apr 26, 2026</div>
+        </div>
+        
+        <section class="body">
+          <p>I am pretty sloppy with my file organization. Usually, I just store
+things where I think they would be useful at that point in time, not
+necessarily where they logically belong. Eventually, I get curious of
+how many of a particular file type I have and how much space they are
+taking up. Below is a convoluted shell command that searches the home
+directory for every file with a particular extension and displays how
+many of that type there are and how much space they&rsquo;re taking up.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>find ~ -type f -name <span style="color:#e6db74">&#34;*.epub&#34;</span> -print0 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>| xargs -0 -r du -k <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span>| awk <span style="color:#e6db74">&#39;{
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      total+=$1
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    }
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    END {
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      printf(&#34;\nTotal files: %d\nTotal Size: %.1f MB\n&#34;, NR, total/1024)
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    }
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  &#39;</span>
+</span></span></code></pre></div><ol>
+<li>Find searches the home directory recursively for files ending with,
+in this example, the .epub extension.</li>
+<li>xargs then passes the results from find to the disk usage utility,
+which calculates the size of each file in kilobytes.</li>
+<li>Finally, awk sums the size of each file and outputs a nicely
+formatted table with the total size presented in megabytes.</li>
+</ol>
+<!--listend-->
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>Total files: 5
+</span></span><span style="display:flex;"><span>Total Size: 11.9 MB
+</span></span></code></pre></div><p>Like I said, it&rsquo;s a bit much. I suppose this could be dumped into a
+shell script with the file extension as a positional parameter,
+e.g. <code>./find-ext.sh epub</code>.</p>
+
+        </section>
+        <div class="post-tags">
+          
+          
+          <nav class="nav tags">
+            <ul class="tags">
+              
+              <li><a href="/tags/techlet/">Techlet</a></li>
+              
+              <li><a href="/tags/linux/">Linux</a></li>
+              
+            </ul>
+          </nav>
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"></div>
+  <div class="footer-info">
+    2026  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+</div>
+  </body>
+</html>

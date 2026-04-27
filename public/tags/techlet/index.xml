@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Techlet on Veblenia</title>
+    <link>http://localhost:1313/tags/techlet/</link>
+    <description>Recent content in Techlet on Veblenia</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Apr 2026 21:39:00 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/techlet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Techlet: Find how much space certain file types take up</title>
+      <link>http://localhost:1313/posts/2026-04-26-use-find-file-types/</link>
+      <pubDate>Sun, 26 Apr 2026 21:39:00 -0600</pubDate>
+      <guid>http://localhost:1313/posts/2026-04-26-use-find-file-types/</guid>
+      <description>&lt;p&gt;I am pretty sloppy with my file organization. Usually, I just store&#xA;things where I think they would be useful at that point in time, not&#xA;necessarily where they logically belong. Eventually, I get curious of&#xA;how many of a particular file type I have and how much space they are&#xA;taking up. Below is a convoluted shell command that searches the home&#xA;directory for every file with a particular extension and displays how&#xA;many of that type there are and how much space they&amp;rsquo;re taking up.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

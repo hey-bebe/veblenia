@@ -6,17 +6,24 @@
     <description>Recent content on Veblenia</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Apr 2026 00:58:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 21:39:00 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Techlet: Find how much space certain file types take up</title>
+      <link>http://localhost:1313/posts/2026-04-26-use-find-file-types/</link>
+      <pubDate>Sun, 26 Apr 2026 21:39:00 -0600</pubDate>
+      <guid>http://localhost:1313/posts/2026-04-26-use-find-file-types/</guid>
+      <description>&lt;p&gt;I am pretty sloppy with my file organization. Usually, I just store&#xA;things where I think they would be useful at that point in time, not&#xA;necessarily where they logically belong. Eventually, I get curious of&#xA;how many of a particular file type I have and how much space they are&#xA;taking up. Below is a convoluted shell command that searches the home&#xA;directory for every file with a particular extension and displays how&#xA;many of that type there are and how much space they&amp;rsquo;re taking up.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Notelet: Christina Hendricks, DJ</title>
       <link>http://localhost:1313/posts/2026-04-05-notelet-hendricks/</link>
       <pubDate>Sun, 05 Apr 2026 00:58:00 -0600</pubDate>
       <guid>http://localhost:1313/posts/2026-04-05-notelet-hendricks/</guid>
-      <description>&lt;p&gt;Christina Hendricks performed a &lt;a href=&#34;https://consequence.net/2026/04/christina-hendricks-dj-set-san-diego/&#34;&gt;four hour DJ set&lt;/a&gt; at a San Diego bar&#xA;the other night, which consisted of primarily shoegaze and dream pop&#xA;tracks, such as Slowdive and Japanese Breakfast and Cocteau&#xA;Twins. She has great taste.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Christina Hendricks performed a &lt;a href=&#34;https://consequence.net/2026/04/christina-hendricks-dj-set-san-diego/&#34;&gt;four hour DJ set&lt;/a&gt; at a San Diego bar&#xA;the other night, which consisted of primarily shoegaze and dream pop,&#xA;such as Slowdive and Japanese Breakfast and Cocteau Twins. She has&#xA;great taste.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Fragments: At A Trailer Park</title>
+      <title>Fragment: At A Trailer Park</title>
       <link>http://localhost:1313/posts/2026-04-04-trailer-trash/</link>
       <pubDate>Sat, 04 Apr 2026 16:17:00 -0600</pubDate>
       <guid>http://localhost:1313/posts/2026-04-04-trailer-trash/</guid>
