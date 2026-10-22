@@ -1,54 +1,42 @@
 {{ define "main" }}
-<main>
-  <article>
-    <div class="post-container">
-      <!-- Main Content -->
-      <div class="post-content">
-        <div class="title">
-          <h1 class="title">{{ .Title }}</h1>
-          <div class="meta">Posted on {{ dateFormat ":date_medium" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</div>
-        </div>
-        {{ if isset .Params "tldr" }}
-        <div class="tldr">
-          <strong>tl;dr:</strong>
-          {{ .Params.tldr }}
-        </div>{{ end }}
-        <section class="body">
-          {{ .Content }}
-        </section>
-        <div class="post-tags">
-          {{ if ne .Type "page" }}
-          {{ with .GetTerms "tags" }}
-          <nav class="nav tags">
-            <ul class="tags">
-              {{ range . }}
-              <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-              {{ end }}
-            </ul>
-          </nav>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
-
-      <!-- TOC -->
-      {{ if and (isset .Params "toc") (.Params.toc) }}
-      <div class="toc">
-        <strong>Table of contents:</strong>
-        {{ .TableOfContents }}
-      </div>
-      {{ end }}
-    </div>
-
-    <!-- Disqus -->
-    {{- $.Scratch.Set "isDisqus" true -}}
-    {{ if not .Site.Config.Services.Disqus.Shortname }}
-    {{- $.Scratch.Set "isDisqus" false -}}
-    {{ end }}
-
-    {{- if eq ($.Scratch.Get "isDisqus") true -}}
-    {{- partial "disqus.html" . -}}
-    {{- end -}}
-  </article>
-</main>
+<article class="post">
+  <header>
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- if ne .Type "page" }}
+    <p class="post-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      {{- with .GetTerms "tags" }}<span class="sep"> · </span>
+      {{- range $i, $t := . }}{{ if $i }} {{ end }}<a class="tag" href="{{ $t.RelPermalink }}">#{{ $t.Data.Term }}</a>{{ end }}
+      {{- end }}
+      <span class="sep"> · </span>{{ .ReadingTime }} min
+      {{- if .Draft }} <span class="draft">draft</span>{{ end }}
+    </p>
+    {{- end }}
+  </header>
+  {{- with .Params.tldr }}
+  <p class="tldr"><strong>tl;dr:</strong> {{ . }}</p>
+  {{- end }}
+  {{- if .Params.toc }}
+  <nav class="toc">{{ .TableOfContents }}</nav>
+  {{- end }}
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+  {{- if ne .Type "page" }}
+  {{- with site.Params.replyEmail }}
+  {{- /* %40 keeps the bare address out of the HTML for naive scrapers;
+       browsers and Emacs (rfc6068) decode it back to @. urlquery
+       encodes spaces as "+", which mailto takes literally. */}}
+  {{- $to := replace . "@" "%40" }}
+  {{- $subject := replace (urlquery (printf "Re: %s" $.Title)) "+" "%20" }}
+  <p class="reply"><a href="{{ printf "mailto:%s?subject=%s" $to $subject | safeURL }}">Reply by email</a></p>
+  {{- end }}
+  {{- /* PrevInSection is the older post, NextInSection the newer one. */}}
+  <nav class="post-nav">
+    {{- with .PrevInSection }}<a class="older" href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
+    {{- if and .NextInSection .PrevInSection }}<span class="sep"> · </span>{{ end }}
+    {{- with .NextInSection }}<a class="newer" href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
+  </nav>
+  {{- end }}
+</article>
 {{ end }}

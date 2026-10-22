@@ -3,7 +3,7 @@
 #+hugo_base_dir: ../
 #+startup: overview
 
-* DONE Techlet: Find how much space certain file types take up :techlet:linux:
+* DONE Find how much space certain file types take up :techlet:linux:
 CLOSED: [2026-04-26 Sun 21:39]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-04-26-use-find-file-types
@@ -54,7 +54,7 @@ e.g. =./find-ext.sh epub=.
 :END:
 
 
-* DONE Notelet: Christina Hendricks, DJ                     :notelet:music:
+* DONE Christina Hendricks, DJ                              :notelet:music:
 CLOSED: [2026-04-05 Sun 00:58]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-04-05-notelet-hendricks
@@ -65,7 +65,7 @@ the other night, which consisted of primarily shoegaze and dream pop,
 such as Slowdive and Japanese Breakfast and Cocteau Twins. She has
 great taste.
 
-* DONE Fragment: At A Trailer Park                              :fragments:
+* DONE At A Trailer Park                                        :fragments:
 CLOSED: [2026-04-04 Sat 16:17]
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2026-04-04-trailer-trash

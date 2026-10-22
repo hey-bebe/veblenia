@@ -1,7 +1,6 @@
 baseURL = "https://veblenia.net"
 languageCode = "en-us"
 title = "Veblenia"
-theme = "archie"
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -13,13 +12,9 @@ theme = "archie"
 subtitle = "Notes and Fragments on Institutions"
 description = "Notes and Fragments on Institutions"
 mainSections = ["posts"]
+replyEmail = "cody@veblenia.net"
 mode = "auto"
 useCDN = false
-
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
 
 [[menu.main]]
 name = "Contact"
@@ -49,3 +44,6 @@ weight = 5
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[markup.highlight]
+  noClasses = false

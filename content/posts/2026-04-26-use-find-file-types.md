@@ -1,5 +1,5 @@
 +++
-title = "Techlet: Find how much space certain file types take up"
+title = "Find how much space certain file types take up"
 author = ["Cody Edwards"]
 date = 2026-04-26T21:39:00-06:00
 tags = ["techlet", "linux"]

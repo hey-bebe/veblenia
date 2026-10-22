@@ -1,5 +1,5 @@
 +++
-title = "Notelet: Christina Hendricks, DJ"
+title = "Christina Hendricks, DJ"
 author = ["Cody Edwards"]
 date = 2026-04-05T00:58:00-06:00
 tags = ["notelet", "music"]

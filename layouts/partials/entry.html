@@ -1,0 +1,16 @@
+{{- /* One post in a list. Source order is the eww reading order:
+     title, then date and tags, then teaser. CSS moves the date into
+     a left column for graphical browsers. */ -}}
+<article class="entry">
+  <header>
+    <h2 class="entry-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p class="entry-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+      {{- with .GetTerms "tags" }}<span class="sep"> · </span>
+      {{- range $i, $t := . }}{{ if $i }} {{ end }}<a class="tag" href="{{ $t.RelPermalink }}">#{{ $t.Data.Term }}</a>{{ end }}
+      {{- end }}
+      {{- if .Draft }} <span class="draft">draft</span>{{ end }}
+    </p>
+  </header>
+  <p class="entry-teaser">{{ .Summary | plainify | htmlUnescape | truncate 200 }}</p>
+</article>
