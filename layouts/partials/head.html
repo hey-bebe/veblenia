@@ -1,0 +1,23 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{- if .IsHome }}
+  <title>{{ site.Title }}</title>
+  {{- else }}
+  <title>{{ .Title }} - {{ site.Title }}</title>
+  {{- end }}
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}">
+  <meta name="color-scheme" content="light dark">
+  {{- with site.Params.favicon }}
+  <link rel="icon" type="image/png" href="{{ . }}">
+  {{- end }}
+  {{- with .OutputFormats.Get "rss" }}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+  {{- end }}
+  {{- template "_internal/opengraph.html" . }}
+  {{- template "_internal/twitter_cards.html" . }}
+  <link rel="preload" href="{{ "fonts/ibm-plex-mono-latin-400-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "fonts/ibm-plex-serif-latin-400-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+  {{- $style := slice (resources.Get "css/main.css") (resources.Get "css/syntax.css") | resources.Concat "css/site.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+</head>

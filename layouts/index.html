@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
+<section class="entries">
+  {{- range $paginator.Pages }}
+  {{ partial "entry.html" . }}
+  {{- end }}
+</section>
+{{ partial "pager.html" . }}
+{{ end }}

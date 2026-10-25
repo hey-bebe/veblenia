@@ -1,0 +1,8 @@
+docs/
+.emacs
+.emacs.d/
+*~
+.DS_Store
+.hugo_build.lock
+content-org/
+public/

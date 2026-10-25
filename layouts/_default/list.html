@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1 class="page-title">{{ .Title }}</h1>
+<section class="entries">
+  {{- range .Paginator.Pages }}
+  {{ partial "entry.html" . }}
+  {{- end }}
+</section>
+{{ partial "pager.html" . }}
+{{ end }}

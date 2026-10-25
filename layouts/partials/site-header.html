@@ -1,0 +1,12 @@
+{{- /* Plain inline links, not a <ul>: eww renders a list nav as vertical bullets. */ -}}
+<header class="site-header">
+  <p class="site-title"><a href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a></p>
+  {{- if .IsHome }}{{ with site.Params.subtitle }}
+  <p class="site-subtitle">{{ . }}</p>
+  {{- end }}{{ end }}
+  <nav class="site-nav">
+    {{- range site.Menus.main }}
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{- end }}
+  </nav>
+</header>

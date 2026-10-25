@@ -1,0 +1,49 @@
+baseURL = "https://veblenia.net"
+languageCode = "en-us"
+title = "Veblenia"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+subtitle = "Notes and Fragments on Institutions"
+description = "Notes and Fragments on Institutions"
+mainSections = ["posts"]
+replyEmail = "cody@veblenia.net"
+mode = "auto"
+useCDN = false
+
+[[menu.main]]
+name = "Contact"
+url = "/contact/"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[menu.main]]
+name = "Archive"
+url = "/archive/"
+weight = 4
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 5
+
+[[menu.main]]
+  name = "RSS"
+  url = "https://veblenia.net/index.xml"
+  weight = 6
+  
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[markup.highlight]
+  noClasses = false

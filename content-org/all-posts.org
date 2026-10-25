@@ -1,0 +1,72 @@
+#+title: Hugo Blog Posts
+#+author: Cody Edwards
+#+hugo_base_dir: ../
+#+startup: overview
+#+startup: logdone
+
+
+* DONE Find how much space certain file types take up :techlet:linux:
+CLOSED: [2026-04-26 Sun 21:39]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-04-26-use-find-file-types
+:END:
+
+I am pretty sloppy with my file organization. Usually, I just store
+things where I think they would be useful at that point in time, not
+necessarily where they logically belong. Eventually, I get curious of
+how many of a particular file type I have and how much space they are
+taking up. Below is a convoluted shell command that searches the home
+directory for every file with a particular extension and displays how
+many of that type there are and how much space they're taking up.
+   
+#+begin_src shell 
+find ~ -type f -name "*.epub" -print0 \
+| xargs -0 -r du -k \
+| awk '{
+      total+=$1
+    }
+
+    END {
+      printf("\nTotal files: %d\nTotal Size: %.1f MB\n", NR, total/1024)
+    }
+  '
+#+end_src
+
+1. Find searches the home directory recursively for files ending with,
+   in this example, the .epub extension.
+2. xargs then passes the results from find to the disk usage utility,
+   which calculates the size of each file in kilobytes.
+3. Finally, awk sums the size of each file and outputs a nicely
+   formatted table with the total size presented in megabytes.
+
+#+begin_example
+Total files: 5
+Total Size: 11.9 MB
+#+end_example
+
+Like I said, it's a bit much. I suppose this could be dumped into a
+shell script with the file extension as a positional parameter,
+e.g. =./find-ext.sh epub=.
+
+* DONE Proem
+CLOSED: [2026-04-02 Thu 18:09]
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2026-04-02-proem
+:END:
+
+I will be honest here: I set up this blog because I was curious
+about how to set up a static blog using GitHub as a host. This came to
+fruition out of some technical desire. Beyond that, there is no plan
+going forward.
+
+The name /Veblenia/ is derived from Veblenian, i.e. someone who adheres,
+in whole or in part, to the institutional economics of [[https://en.wikipedia.org/wiki/Thorstein_Veblen][Thorstein
+Veblen]]. He was a fascinating character, and it would be well worth
+your time read up on him.
+
+It has been claimed by some that I made a typo when registering the
+domain. That is false. That is slander. And I deny it.
+
+Regardless, I am excited about what I can do with this space. Maybe a
+story! Maybe a recipe! Maybe a detailed accounting of all the slights,
+real or imagined, that have been directed toward me. We shall see.
